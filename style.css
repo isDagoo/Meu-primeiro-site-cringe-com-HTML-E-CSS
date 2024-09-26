@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    scroll-behavior: smooth; /* Rolagem suave */
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(214, 238, 245, 0.815);
+    padding: 20px 40px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+.content {
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin-left: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Seção de Receitas - alinhamento lado a lado */
+.recipes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.recipe {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 30%; /* Ajusta o tamanho para 3 receitas em linha */
+    box-sizing: border-box;
+}
+
+.recipe h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.recipe img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.recipe ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recipe p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Seção de Cadastro */
+.cadastro-section {
+    background-color: #e9ecef;
+    padding: 40px;
+}
+
+.form-cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-cadastro label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-cadastro input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-cadastro button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-cadastro button:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Garantir que o conteúdo dentro do header não ultrapasse as margens */
+* {
+    box-sizing: border-box;
+}
